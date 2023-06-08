@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* CSS Document */
+}
+#contenedor{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+div{
+	margin: auto;
+	width: 90%;
+	background-color: transparent;
+	margin-top: 0px;
+	top:0px;
+}
+header{
+	border: ridge;
+	height: 250px;
+	margin-top: 76px;
+}
+main{
+	background-color: grey;
+	width: 100%;
+}
+aside{
+	background-color:teal;
+	border: ridge;
+}
+footer{
+	background-color: black;
+	border: ridge;
+}
+.alineacion{
+	float: left;
+	width: 24.25%;
+	background-color:black;
+	height: 300px;
+	border: ridge;
+}
+.alineacion{
+	overflow: hidden;
+}
+.banner{
+	width: 100%;
+	height: 100%;
+}
+.video{
+	width: 100%;
+	height: 100%;
+}
+#video{
+	width: 50%;
+	float: left;
+	background-color: aqua;
+	height: 300px;
+	border: ridge;
+}
+.moto{
+	width: 100%;
+	height: 100%;
+}
+.alineacion ul{
+	display: flex;
+	animation: cambio 20s infinite
+	alternate linear;
+	width: 400%;
+}
+.alineacion li{
+	width: 25%;
+	list-style: none; 
+}
+.alineacion img{
+	width: 74%;
+	height: 110%;
+	top: auto;
+}
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+	
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+	
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+	
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+.alineacion2{
+	float: left;
+	width: 22.52%;
+	background-color:dodgerblue;
+	height: 280px;
+	border: ridge;
+	text-align: justify;
+	padding: 10px 10px;
+	color:black;
+}
+.logo{
+	background-color: black;
+	padding-top: 10px;
+	margin-left: 30px;
+	height: 70%;
+	width: 70px;
+	font-size: 25px;
+}
+.mem{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width: 4.5%;
+	height:11%;
+	position: fixed;
+	transition: .4s all;
+	z-index: 1;
+	border: none;
+	margin-left: -7.6px;
+	margin-top: 3px;
+}
+.mem ul{
+	padding: 0px;
+	text-align: center;
+	
+}
+.mem li{
+	transition: .3s all;
+}
+.mem a{
+	text-decoration: none;
+	list-style: none;
+	transition: .3s all;
+	font-size: 0px;
+	padding: 0px;
+}
+.mem h1{
+	text-align: center;
+	color: white;
+	padding: 7px;
+	padding-bottom: 7px;
+	
+	font-size: 0px;
+}
+.mem i{
+	padding-top: 5px;
+	padding-left: 15px;
+	font-size: 30px;
+}
+.mem:hover{
+	width: 20%;
+	height: 100%;
+		
+	background-color: rgb(5,33,51, 0.98);
+}
+.mem:hover h1{
+	padding: 15px;
+	font-size: 35px;
+}
+.mem:hover a{
+	font-size: 20px;
+	color:white;
+	
+	display: block;
+	padding: 20px;
+}
+.mem:hover i{
+	height:0px;
+	font-size: 0px;
+}
+.mem:hover li{
+	border-top: 1px solid black;
+	width: 100%;
+}
+.mem:hover ul:last-of-type{
+	border-bottom: 1px solid black;
+}
+.mem:hover a:hover{
+	font-size: 25px;
+	padding: 30px 0px;
+	
+	background-color: rgb(22,78,112,0.98);
+	
+}
+.mam{
+	float: left;
+	width: 10%;
+	padding-top: 0px;
+	padding-left: 45px;
+}
+.mim{
+	float: left;
+	width: 10%;
+	height: 10px;
+	padding-top: 18px;
+	margin-left: -10px;
+}
+.mm{
+	font-size: 25px;
+	height: 30px;
+	width: 100%;
+	background-color:transparent;
+	font-style: italic;
+	color: azure;
+	border-color:transparent;
+	border: none;
+}
+.us{
+	float: left;
+	width: 40%;
+	height: 10px;
+	padding-top: 14px;
+	margin-left: 80px;
+}
+.as{
+	height: 40px;
+	margin-left: 30px;
+	width: 400px;
+	border: 2px solid #0099CC;
+	border-radius: 25px;
+	text-align: center;
+	background-color: transparent;
+	color: aliceblue;
+}
+.lupa{
+	float: left;
+	background-color: transparent;
+	padding-top: -15px;
+	margin-left: -90px;
+	position: relative;
+	padding: 13px 15px;
+	border-radius: 25px;
+	top: 9px;
+	font-size: 20px;
+}
+.lupa:hover{
+	background-color: darkslategrey;
+	cursor: pointer;
+}
+.rt{
+	float: left;
+	background-color:transparent;
+	top: -20px;
+	margin-left: 150px;
+	padding-top: 35px;
+	border-color: aqua;
+	padding: 15px 15px;
+	height:57%;
+	width: 15%;
+}
+.ggg{
+	background-color: transparent;
+	border: 2px solid #0099CC;
+	padding:7px 15px;
+	font-size: 20px;
+	border-radius: 25px;
+	cursor: pointer;
+	color: aliceblue;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+.ggg:hover{
+	background-color: darkslategrey;
+}
+.fff{
+	float: left;
+	background-color: transparent;
+	width: 3%;
+	height: 100%;
+	margin-left: -30px;
+	top:5px;
+}
+.kkk{
+	background-color: transparent;
+	padding:15px 15px;
+	border-radius: 25px;
+	color: antiquewhite;
+	font-size: 35px;
+	border:none;
+	cursor: pointer;
+}
+.fin{
+	text-align: center;
+	font-size: 25px;
+	color: dodgerblue;
+}
+.re{
+	
+	
+	text-align: justify;
+	padding: 10px 10px;
+	color: bisque;
+}
+.meu{
+	width: 100%;
+	background: black;
+	height: 70px;
+	border:ridge;
+	position: fixed;
+	margin-left: -8px;	
+}
+aside h1:hover{
+	color: darkblue;
+	font-size: 30px
+}
+p:hover{
+	color: aliceblue;;
+}
+main h1:hover{
+	color: darkblue;
+}
+aside h2:hover{
+	color: darkblue;
+}
+aside h3:hover{
+	color: darkblue;
+}
